@@ -1,0 +1,5 @@
+controller,avg_wait_sec,cars_served,avg_queue,max_queue,switches,reward
+Fixed-time (30 s),21.27,522.08,6.4,10.02,51.0,-230.33
+Random,43.93,512.92,13.7,21.52,70.4,-577.33
+Longest-queue rule,14.21,523.7,4.22,6.7,62.4,-152.08
+Q-learning,14.44,523.58,4.3,6.38,83.5,-154.68

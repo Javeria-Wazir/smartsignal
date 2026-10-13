@@ -1,0 +1,5 @@
+traffic,Fixed-time (30 s),Random,Longest-queue rule,Q-learning
+Light (0.6x),19.48,31.73,14.03,13.9
+Normal (0.8x),19.95,38.07,13.33,13.78
+Busy (1.0x),21.16,45.24,13.87,14.31
+Rush hour (1.3x),24.47,60.68,15.61,15.76

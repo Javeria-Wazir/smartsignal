@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "Fixed-time (30 s)": {
+      "avg_wait_sec": 21.267,
+      "cars_served": 522.075,
+      "avg_queue": 6.398,
+      "max_queue": 10.025,
+      "switches": 51.0,
+      "reward": -230.335
+    },
+    "Random": {
+      "avg_wait_sec": 43.927,
+      "cars_served": 512.925,
+      "avg_queue": 13.697,
+      "max_queue": 21.525,
+      "switches": 70.4,
+      "reward": -577.332
+    },
+    "Longest-queue rule": {
+      "avg_wait_sec": 14.21,
+      "cars_served": 523.7,
+      "avg_queue": 4.224,
+      "max_queue": 6.7,
+      "switches": 62.4,
+      "reward": -152.075
+    },
+    "Q-learning": {
+      "avg_wait_sec": 14.441,
+      "cars_served": 523.575,
+      "avg_queue": 4.297,
+      "max_queue": 6.375,
+      "switches": 83.5,
+      "reward": -154.683
+    }
+  },
+  "by_level": {
+    "Fixed-time (30 s)": {
+      "Light (0.6x)": 19.48,
+      "Normal (0.8x)": 19.95,
+      "Busy (1.0x)": 21.16,
+      "Rush hour (1.3x)": 24.47
+    },
+    "Random": {
+      "Light (0.6x)": 31.73,
+      "Normal (0.8x)": 38.07,
+      "Busy (1.0x)": 45.24,
+      "Rush hour (1.3x)": 60.68
+    },
+    "Longest-queue rule": {
+      "Light (0.6x)": 14.03,
+      "Normal (0.8x)": 13.33,
+      "Busy (1.0x)": 13.87,
+      "Rush hour (1.3x)": 15.61
+    },
+    "Q-learning": {
+      "Light (0.6x)": 13.9,
+      "Normal (0.8x)": 13.78,
+      "Busy (1.0x)": 14.31,
+      "Rush hour (1.3x)": 15.76
+    }
+  },
+  "states_visited": 199,
+  "n_states": 294,
+  "first50": -1468.32,
+  "last50": -165.43200000000002
+}
